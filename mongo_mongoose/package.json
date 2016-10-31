@@ -1,0 +1,19 @@
+{
+  "name": "mongo-mongoose",
+  "version": "1.0.0",
+  "description": "MEAN book example",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "colors": "^1.1.0",
+    "mongoose": "^4.0.2",
+    "mongoose-post-find": "0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "populate": "node ./bin/populate_db",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonghwi, Lee",
+  "license": "BSD"
+}
